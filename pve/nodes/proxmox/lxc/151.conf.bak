@@ -1,0 +1,17 @@
+arch: amd64
+cores: 4
+dev0: /dev/dri/renderD128,gid=44
+dev1: /dev/dri/card1,gid=44
+features: nesting=1,keyctl=1,mount=ext4;nfs;cifs
+hostname: img-server
+memory: 6144
+net0: name=eth0,bridge=vmbr0,gw=192.168.0.1,hwaddr=BC:24:11:59:91:04,ip=192.168.0.151/24,ip6=auto,type=veth
+onboot: 1
+ostype: debian
+rootfs: local-lvm:vm-151-disk-0,size=30G
+swap: 512
+tags: community-script;photos
+timezone: Asia/Kolkata
+unprivileged: 1
+lxc.cgroup2.devices.allow: c 10:200 rwm
+lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file

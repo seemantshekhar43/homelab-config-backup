@@ -1,0 +1,15 @@
+arch: amd64
+cores: 2
+dev0: /dev/dri/renderD128,gid=44
+dev1: /dev/dri/card1,gid=44
+features: keyctl=1,mount=nfs;cifts;ext4
+hostname: jellyfin
+memory: 3072
+net0: name=eth0,bridge=vmbr0,gw=192.168.0.1,hwaddr=BC:24:11:F4:2F:1A,ip=192.168.0.153/24,type=veth
+onboot: 1
+ostype: ubuntu
+rootfs: local-lvm:vm-153-disk-0,size=32G
+swap: 512
+tags: community-script;media
+timezone: Asia/Kolkata
+unprivileged: 1
