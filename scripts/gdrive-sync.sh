@@ -4,7 +4,7 @@ BACKUP_DIR="/mnt/hdd/proxmox-backups/dump"
 GDRIVE_DIR="gdrive:proxmox-backups"
 LOG="/var/log/gdrive-sync.log"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
-VMIDS="151 152 153 154"
+VMIDS="151 152 153 154 157"
 
 echo "[$DATE] Starting GDrive sync" >> $LOG
 

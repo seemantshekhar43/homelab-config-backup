@@ -1,11 +1,12 @@
 {
 "version": 1,
 "ids": {
-"154": { "node": "proxmox", "type": "lxc", "version": 1 },
-"156": { "node": "proxmox", "type": "lxc", "version": 5 },
-"151": { "node": "proxmox", "type": "lxc", "version": 2 },
-"153": { "node": "proxmox", "type": "lxc", "version": 6 },
-"155": { "node": "proxmox", "type": "lxc", "version": 3 },
-"152": { "node": "proxmox", "type": "lxc", "version": 4 }}
+"154": { "node": "proxmox", "type": "lxc", "version": 2 },
+"156": { "node": "proxmox", "type": "lxc", "version": 6 },
+"151": { "node": "proxmox", "type": "lxc", "version": 3 },
+"153": { "node": "proxmox", "type": "lxc", "version": 7 },
+"155": { "node": "proxmox", "type": "lxc", "version": 4 },
+"157": { "node": "proxmox", "type": "lxc", "version": 1 },
+"152": { "node": "proxmox", "type": "lxc", "version": 5 }}
 
 }

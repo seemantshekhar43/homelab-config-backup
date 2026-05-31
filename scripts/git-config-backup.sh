@@ -12,6 +12,10 @@ cp /etc/network/interfaces "$REPO_DIR/"
 cp /etc/hosts "$REPO_DIR/"
 cp /etc/hostname "$REPO_DIR/"
 
+cp /usr/local/bin/git-config-backup.sh "$REPO_DIR/scripts/"
+cp /usr/local/bin/lxc-backup.sh "$REPO_DIR/scripts/"
+cp /usr/local/bin/gdrive-sync.sh "$REPO_DIR/scripts/"
+
 cd "$REPO_DIR"
 
 git add -A

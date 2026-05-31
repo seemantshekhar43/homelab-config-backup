@@ -4,7 +4,7 @@ STORAGE="hdd-backup"
 BACKUP_DIR="/mnt/hdd/proxmox-backups/dump"
 LOG="/var/log/lxc-backup.log"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
-VMIDS="151 152 153 154"
+VMIDS="151 152 153 154 157"
 KEEP=2
 
 echo "[$DATE] Starting LXC backup" >> $LOG
