@@ -2,3 +2,6 @@
 *.pem
 authkey
 priv/
+*.pub
+*pub.old
+ssh_known_hosts
