@@ -1,5 +1,7 @@
 {
 "data": [
+{"uid": 292, "time": 1782430890, "pri": 6, "tag": "pveupdate", "pid": 3364712, "node": "proxmox", "user": "root@pam", "msg": "end task UPID:proxmox:0033576E:05549DDC:6A3DBCA6:aptupdate::root@pam: OK"},
+{"uid": 291, "time": 1782430886, "pri": 6, "tag": "pveupdate", "pid": 3364712, "node": "proxmox", "user": "root@pam", "msg": "starting task UPID:proxmox:0033576E:05549DDC:6A3DBCA6:aptupdate::root@pam:"},
 {"uid": 290, "time": 1782333432, "pri": 6, "tag": "pveupdate", "pid": 2548078, "node": "proxmox", "user": "root@pam", "msg": "end task UPID:proxmox:0026E1BE:04BFE914:6A3C3FF6:aptupdate::root@pam: OK"},
 {"uid": 289, "time": 1782333430, "pri": 6, "tag": "pveupdate", "pid": 2548078, "node": "proxmox", "user": "root@pam", "msg": "starting task UPID:proxmox:0026E1BE:04BFE914:6A3C3FF6:aptupdate::root@pam:"},
 {"uid": 288, "time": 1782251309, "pri": 6, "tag": "pveupdate", "pid": 1855528, "node": "proxmox", "user": "root@pam", "msg": "end task UPID:proxmox:001C5031:04429979:6A3AFF2A:aptupdate::root@pam: OK"},
@@ -47,8 +49,6 @@
 {"uid": 246, "time": 1782125836, "pri": 6, "tag": "pvedaemon", "pid": 1263, "node": "proxmox", "user": "root@pam", "msg": "successful auth for user 'root@pam'"},
 {"uid": 245, "time": 1782124876, "pri": 6, "tag": "pvedaemon", "pid": 1263, "node": "proxmox", "user": "root@pam", "msg": "successful auth for user 'root@pam'"},
 {"uid": 244, "time": 1782123638, "pri": 6, "tag": "pvedaemon", "pid": 1263, "node": "proxmox", "user": "root@pam", "msg": "successful auth for user 'root@pam'"},
-{"uid": 243, "time": 1782122581, "pri": 6, "tag": "pvedaemon", "pid": 1262, "node": "proxmox", "user": "root@pam", "msg": "successful auth for user 'root@pam'"},
-{"uid": 242, "time": 1782121621, "pri": 6, "tag": "pvedaemon", "pid": 1263, "node": "proxmox", "user": "root@pam", "msg": "successful auth for user 'root@pam'"},
-{"uid": 241, "time": 1782120661, "pri": 6, "tag": "pvedaemon", "pid": 1262, "node": "proxmox", "user": "root@pam", "msg": "successful auth for user 'root@pam'"}
+{"uid": 243, "time": 1782122581, "pri": 6, "tag": "pvedaemon", "pid": 1262, "node": "proxmox", "user": "root@pam", "msg": "successful auth for user 'root@pam'"}
 ]
 }
